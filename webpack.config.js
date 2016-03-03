@@ -10,7 +10,7 @@ module.exports = {
   ],
   module: {
     loaders: [
-      {test: /\.coffee$/, exclude: /node_modules/, loader: "coffee-loader"}
+      {test: /\.coffee$/, exclude: /node_modules/, loader: "babel-loader"}
     ]
   },
   output: {
